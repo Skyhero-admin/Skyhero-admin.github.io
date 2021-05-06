@@ -14,8 +14,8 @@ body{
 }
 #myself{
 	border: 2px solid black;
-	height: 85vh;
-	width: 20%;
+	height: 100vh;
+	width: 272.8px;
 	text-align: center;
 	align-items: center;
 	position: fixed;
@@ -101,6 +101,7 @@ p{
 	background-color: #1b1b32;
 	margin-left: 274.8px;
 	margin-top: 103px;
+	height:100vh;
 }
 #project-tile{
 	background-color: #1b1b32;
