@@ -32,11 +32,18 @@ li{
 	width:100%;
 	top:0px;
 	display: block;
+	z-index: 9999;
+	left: 0px;
+	right: 0px;
+	background:beige;
+	border-bottom: 2px solid brown;
+
 }
 #navbar ul{
 	margin-top: 30px;
-    padding-bottom: 20px;
     margin-left: 45px;
+	background:beige;
+	margin-bottom: 10px;
 }
 
 #navbar ul li a {
