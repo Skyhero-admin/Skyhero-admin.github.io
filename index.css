@@ -32,7 +32,6 @@ li{
 	width:100%;
 	top:0px;
 	display: block;
-	z-index: 9999;
 	left: 0px;
 	right: 0px;
 	background:beige;
@@ -58,8 +57,9 @@ li{
 #myself ul li a{
 	text-decoration: none;
 	margin-top: 20px;
-	font-size: 20px;
+	font-size: 16px;
 	margin-right: 10px;
+	transition:padding 0.3s;
 }
 #myself ul li{
 	margin-top: 20px;
@@ -70,7 +70,7 @@ li{
 	text-align: center;
 	color: white;
 	width: 100%;
-	height: 100%;
+	height: auto%;
 }
 #logo{
 	display: inline-block;
@@ -80,6 +80,11 @@ li{
 	justify-content: center;
 	float: right;
 	margin-top: 20px;
+}
+#navbar ul li a:hover{
+	background-color: white;
+	color: brown;
+	border: solid brown;
 }
 p{
 	font-size: 15px;
@@ -107,4 +112,7 @@ p{
 }
 h1{
 	color: white;
+}
+#myself ul li a:hover{
+	padding-left: 20px;
 }
