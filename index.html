@@ -13,9 +13,11 @@
 			<li class="button"><a href="">Get in touch with me</a></li>
 		</ul>
 	</nav>
+	<button id="socials" style="z-index: 5;position: fixed;" onclick="openMyself()">Socials</button>
 	<div id="main">
 		<div id="myself">
 			<img src="./img/linkcoffee.jpg" width="200px" height="200px" style="margin: 20px">
+			<button id="close" onclick="closeMyself()">Close</button>
 			<h3 style="font-size: 16px"><a href="https://www.freecodecamp.org/skyhero" id="profile-id" style="text-decoration: none"> Sayed Mohammed Nouman</a></h3>
 			<ul>
 				<li><a href="https://github.com/Skyhero-admin" target="_blank"><img src="./img/githubmark.png" width="25px;">Github</a></li>
@@ -50,8 +52,19 @@
 				</div>
 			</section>
 			<hr>
-			<footer style="background-color:gray;color:white; padding-top:100px; text-align: center;padding-bottom: 20px;"><p>This webpage was made as a project while completing the <b>Responsive Design course</b> on Free code Camp</p></footer>
+			<footer style="background-color:gray;color:white; padding-top:20px; text-align: center;padding-bottom: 20px;bottom:0px;"><p>This webpage was made as a project while completing the <b>Responsive Design course</b> on Free code Camp</p></footer>
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+	function openMyself(){
+		document.getElementById("myself").style.visibility="visible";
+		document.getElementById("close").style.visibility="visible";
+	}
+	function closeMyself() {
+  		document.getElementById("myself").style.visibility= "hidden";
+ 		document.getElementById("close").style.visibility="hidden";
+
+  	}
+</script>
 </html>
