@@ -21,6 +21,7 @@ body{
 	position: fixed;
 	overflow: auto;
 	margin-top: 103px;
+	background: beige;
 }
 li{
 	list-style: none;
@@ -116,4 +117,79 @@ h1{
 }
 #myself ul li a:hover{
 	padding-left: 20px;
+}
+#socials{
+	visibility: hidden;
+}
+#socials:hover{
+	color: white;
+	background: #00A1C9;
+}
+#close{
+	visibility: hidden;
+	position: fixed;
+	color: brown;
+	background-color: white;
+	border: 2px solid brown;
+	border-radius: 15px;
+}
+#close:hover{
+	color: white;
+	background: brown;
+}
+
+/*media queries from here */
+
+
+@media screen and (max-width: 750px){
+	#myself{
+		visibility: hidden;
+	}
+	#rightpage{
+		margin-left: 0px;
+	}
+	#navbar ul{
+		text-align: center;
+	}
+	#navbar ul li a{
+		margin: 10px;
+	}
+	#socials{
+		margin-top: 10px;
+		margin-left: 10px;
+		border: 2px solid #00A1C9;
+		position: absolute;
+		top:0px;
+		visibility: visible;
+		background: white;
+		color: #00A1C9;
+		border-radius: 20px;
+		padding: 4px;
+	}
+	#close{
+		margin-top: 1px;
+		margin-left: -33px;
+	}
+}
+
+@media screen and (max-width: 622px){
+	#navbar ul li{
+		float: none;
+		width: 100%;
+	}
+	#navbar ul li a{
+		display: block;
+		margin:0px;
+		margin-left: 0px;
+	}
+	#navbar ul{
+		margin: 0px;
+		margin-bottom: 5px;
+	}
+	#rightpage{
+		margin-top: 271px;
+	}
+	#myself{
+		margin-top: 271px;
+	}
 }
