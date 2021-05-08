@@ -4,7 +4,7 @@ function openMyself(){
 
 		document.getElementById("close").style.visibility="visible";
 	}
-	else{
+	else if (min.matches){
 		document.getElementById("myself").style.visibility="visible";
 
 		document.getElementById("close").style.visibility="hidden";
@@ -12,14 +12,13 @@ function openMyself(){
 	}
 }
 function closeMyself() {
-	if (max.matches){
+	if(max.matches){
 
-	 	document.getElementById("myself").style.visibility= "hidden";
+	 	document.getElementById("myself").style.visibility="hidden";
 	 	document.getElementById("close").style.visibility="hidden";
+	}
+}
 
- }
- }
-
-var max=window.matchMedia("(max-width:750px)")
-var min=window.matchMedia("(min-width:750px)")
+var max=window.matchMedia("(max-width:1000px)")
+var min=window.matchMedia("(min-width:1000px)")
 

@@ -20,7 +20,7 @@ body{
 	align-items: center;
 	position: fixed;
 	overflow: auto;
-	margin-top: 103px;
+	margin-top:103px;
 	background: beige;
 }
 li{
@@ -158,7 +158,7 @@ h1{
 @media screen and (max-width: 1000px){
 	#myself{
 		visibility: hidden;
-		margin-top:0px;
+		margin-top: 0px;
 	}
 	#rightpage{
 		margin-left: 0px;
@@ -214,6 +214,9 @@ h1{
 	}
 	#myself{
 		margin-top: 0px;
+	}
+	#project-tile{
+		flex-direction: column;
 	}
 } 
 
