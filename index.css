@@ -110,9 +110,13 @@ p{
 	background-color: #1b1b32;
 	color: white;
 	display: flex;
+	border: 2px solid white;
+	margin: 0px 10px;
+	border-radius: 10px;
 }
 #projects{
 	background-color: #1b1b32;
+	padding-bottom: 20px;
 }
 h1{
 	color: white;
@@ -141,6 +145,7 @@ h1{
 	color: white;
 	background: brown;
 }
+
 
 /*media queries from here */
 @media screen and (min-width: 1000px){
@@ -219,6 +224,7 @@ h1{
 	}
 	#project-tile{
 		flex-direction: column;
+		align-items: center;
 	}
 } 
 
