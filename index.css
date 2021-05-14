@@ -110,9 +110,9 @@ p{
 	background-color: #1b1b32;
 	color: white;
 	display: flex;
-	border: 2px solid white;
 	margin: 0px 10px;
 	border-radius: 10px;
+	background: grey;
 }
 #projects{
 	background-color: #1b1b32;
