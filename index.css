@@ -134,16 +134,16 @@ h1{
 #close{
 	visibility: hidden;
 	position: relative;
-	color: brown;
-	background-color: white;
+	color: white;
+	background: brown;
 	border: 2px solid brown;
 	border-radius: 15px;
 	overflow: auto;
 	overflow: visible;
 }
 #close:hover{
-	color: white;
-	background: brown;
+	color: brown;
+	background: white;
 }
 
 
@@ -221,6 +221,8 @@ h1{
 	}
 	#myself{
 		margin-top: 0px;
+		z-index: 20;
+		top: 0px;
 	}
 	#project-tile{
 		flex-direction: column;
