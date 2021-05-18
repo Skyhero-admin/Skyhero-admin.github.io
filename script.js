@@ -10,12 +10,10 @@ function closeMyself() {
 function checkScreenWidth() {
 	if(screen && screen.width < 480)
 	 {
-		document.getElementById("myself").style.visibility="hidden";
-	 	document.getElementById("close").style.visibility="hidden";
+		 closeMyself();
 	 }
 	 else
 	 {
-		document.getElementById("myself").style.visibility="visible";
-		document.getElementById("close").style.visibility="visible";
+		 openMyself();
 	 }
 }
