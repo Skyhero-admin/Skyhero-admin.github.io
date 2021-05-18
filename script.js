@@ -8,11 +8,12 @@ function closeMyself() {
 }
 
 function checkScreenWidth() {
-	if(screen && screen.width < 1000)
+	if(screen && screen.width < 480)
 	 {
-		closeMyself();
+		 closeMyself();
 	 }
-	 else if(screen && screen.width >= 1000){
-	 	openMyself()
+	 else
+	 {
+		 openMyself();
 	 }
 }
