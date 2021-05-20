@@ -3,7 +3,7 @@
 	margin: 0px;
 }
 body{
-	background-color: beige;
+	background-color: #1b1b32;
 	padding: 0px;
 	margin: 0px;
 	font-family: monospace;
@@ -11,6 +11,7 @@ body{
 }
 #main{
 	display: flex;
+	background: #1b1b32;
 }
 #myself{
 	border-right: 2px solid brown;
@@ -105,6 +106,9 @@ p{
 	margin-left: 274.8px;
 	margin-top: 103px;
 	height:100vh;
+}
+#tech{
+	margin: 20px;
 }
 #project-tile{
 	background-color: #1b1b32;
