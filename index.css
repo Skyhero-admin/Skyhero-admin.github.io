@@ -93,13 +93,16 @@ li{
 p{
 	font-size: 15px;
 }
-.info{
+#info{
 	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin: 0 15% 0 15%;
 	justify-content: center;
 	text-align: center;
 	align-self: center;
+	padding-top: 30px;
+}
+#info p{
+	margin-top: 30px;
 }
 #rightpage{
 	background-color: #1b1b32;
@@ -206,6 +209,11 @@ h1{
 		visibility: hidden;
 
 	}
+	#myself{
+		margin-top: 0px;
+		z-index: 20;
+		top: 0px;
+	}
 }
 
 @media screen and (max-width: 750px){
@@ -225,11 +233,7 @@ h1{
 	#rightpage{
 		margin-top: 0px;
 	}
-	#myself{
-		margin-top: 0px;
-		z-index: 20;
-		top: 0px;
-	}
+	
 	#project-tile{
 		flex-direction: column;
 		align-items: center;
