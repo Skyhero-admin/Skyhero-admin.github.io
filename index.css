@@ -129,9 +129,15 @@ p{
 h1{
 	color: white;
 }
-#myself ul li a:hover{
-	padding-left: 20px;
+#myself ul li:hover{
+	transform: scale(1.1,1.1);
 }
+
+#myself ul li:active{
+	transform: scale(0.9,0.9);
+}
+
+
 #socials{
 	visibility: hidden;
 }
