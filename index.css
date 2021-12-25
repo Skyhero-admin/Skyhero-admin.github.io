@@ -118,9 +118,12 @@ p{
 	background-color: #1b1b32;
 	color: white;
 	display: flex;
-	margin: 0px 10px;
+	margin: 10px 10px;
 	border-radius: 10px;
 	background: grey;
+}
+#project-tile li{
+	margin-left: 20px;
 }
 #projects{
 	background-color: #1b1b32;
