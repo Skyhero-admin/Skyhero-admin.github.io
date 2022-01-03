@@ -86,9 +86,10 @@ li{
 	margin-top: 20px;
 }
 #navbar ul li a:hover{
-	background-color: white;
+	background-color: rgba(255,255,255,0.5);
 	color: brown;
 	border: solid brown;
+	transition: 0.3s;
 }
 p{
 	font-size: 15px;
@@ -111,7 +112,7 @@ p{
 	height:100vh;
 }
 #tech{
-	margin: 20px;
+	margin: auto;
 	padding: 10px;
 }
 #project-tile{
@@ -128,18 +129,20 @@ p{
 #projects{
 	background-color: #1b1b32;
 	padding-bottom: 20px;
+	padding-top: 104px;
 }
 h1{
 	color: white;
 }
 #myself ul li:hover{
 	transform: scale(1.1,1.1);
+	transition: 0.2s;
 }
 
 #myself ul li:active{
 	transform: scale(0.9,0.9);
+	transition: 0.2s;
 }
-
 
 #socials{
 	visibility: hidden;
@@ -163,6 +166,20 @@ h1{
 	background: white;
 }
 
+#resume{
+	font-size: 15px;
+	color: brown;
+	border: 2px solid brown;
+	display: inline-block;
+	width: 80px;
+	border-radius: 5px;
+	padding: 4px;
+}
+#resume:hover{
+	background: rgba(255,0,0,0.5);
+	transition: 0.2s;
+	color: brown;
+}
 
 /*media queries from here */
 @media screen and (min-width: 1000px){
@@ -223,17 +240,26 @@ h1{
 		z-index: 20;
 		top: 0px;
 	}
+	#projects{
+		padding-top: 20px;
+	}
 }
 
 @media screen and (max-width: 750px){
 	#navbar ul li{
 		float: none;
-		width: 100%;
+	}
+	#logo{
+		display: block;
 	}
 	#navbar ul li a{
 		display: block;
 		margin:0px;
 		margin-left: 0px;
+		font-size: 12px;
+	}
+	.button{
+		display: inline-block;
 	}
 	#navbar ul{
 		margin: 0px;
@@ -249,3 +275,10 @@ h1{
 	}
 } 
 
+
+@media screen and (max-width: 400px){
+	#navbar ul li a{
+		font-size: 10px;
+		padding: 10px;
+		border-radius: 15px;
+	}
