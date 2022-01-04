@@ -1,6 +1,7 @@
 *{
 	padding:0px;
 	margin: 0px;
+	scroll-behavior: smooth;
 }
 body{
 	background-color: #1b1b32;
@@ -9,6 +10,20 @@ body{
 	font-family: monospace;
 
 }
+#intro{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%),url("./img/retroroom.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 50px;
+}
+#intro p{
+	color: rgba(255,255,255,0.8);
+}
+
 #main{
 	display: flex;
 	background: #1b1b32;
@@ -24,6 +39,9 @@ body{
 	overflow: auto;
 	margin-top:103px;
 	background: beige;
+}
+#name{
+	font-size:5rem
 }
 li{
 	list-style: none;
@@ -100,7 +118,7 @@ p{
 	justify-content: center;
 	text-align: center;
 	align-self: center;
-	padding-top: 30px;
+	padding-top: 100px;
 }
 #info p{
 	margin-top: 30px;
@@ -165,7 +183,9 @@ h1{
 	color: brown;
 	background: white;
 }
-
+#devText{
+	font-size: 4rem;
+}
 #resume{
 	font-size: 15px;
 	color: brown;
@@ -243,6 +263,9 @@ h1{
 	#projects{
 		padding-top: 20px;
 	}
+	#intro{
+		height: 100vh;
+	}
 }
 
 @media screen and (max-width: 750px){
@@ -272,6 +295,15 @@ h1{
 	#project-tile{
 		flex-direction: column;
 		align-items: center;
+	}
+	#info{
+		padding-top: 30px;
+	}
+	#name{
+		font-size: 4rem;
+	}
+	#devText{
+		font-size: 3rem;
 	}
 } 
 
