@@ -44,6 +44,10 @@ body{
 li{
 	list-style: none;
 }
+
+#studyInfo{
+	margin-top:50px;
+}
 #navbar{
 	margin: 0px;
 	position: fixed;
@@ -312,3 +316,10 @@ h1{
 		padding: 10px;
 		border-radius: 15px;
 	}
+}
+
+@media screen and (max-width: 850px){
+	#studyInfo{
+		margin-top:20px;
+	}
+}
