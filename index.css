@@ -205,6 +205,12 @@ h1{
 	color: brown;
 }
 
+#tech i{
+	font-size: 70px;
+	padding: 5px;
+	line-height: 2;
+}
+
 /*media queries from here */
 @media screen and (min-width: 1000px){
 	#close{
